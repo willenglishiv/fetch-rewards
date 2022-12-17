@@ -1,0 +1,35 @@
+{
+  "name": "fetch-rewards-take-home",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "latest",
+    "@next/font": "latest",
+    "axios": "^1.2.1",
+    "formik": "^2.2.9",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "swr": "^2.0.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "typescript": "latest"
+  }
+}
